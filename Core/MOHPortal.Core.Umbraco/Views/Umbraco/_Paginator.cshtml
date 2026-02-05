@@ -1,0 +1,90 @@
+﻿@using MOHPortal.Core.Umbraco.Paginator
+@using Umbraco.Cms.Web.Common.Views
+@inherits UmbracoViewPage<PublishedContentPaginator>
+@{
+    if (!Model.HasPages)
+    {
+        return;
+    }
+
+    int pagingOffset = 1;
+    bool isCompact = Model.TotalPages > 4;
+    int compactFloor = isCompact && Model.CurrentPage <= pagingOffset ? 1 : Model.CurrentPage - pagingOffset;
+    int floor = isCompact ? compactFloor : 1;
+
+    int compactSealing = isCompact && Model.CurrentPage >= Model.TotalPages - pagingOffset ? Model.TotalPages : Model.CurrentPage + pagingOffset;
+    int ceiling = isCompact ? compactSealing : Model.TotalPages;
+}
+
+@if (Model.HasPages)
+{
+    <ul style='display:flex; gap: 20px; list-style: none; justify-content: end;'>
+        @if (!Model.IsFirstPage)
+        {
+            var previousPage = Model.IsFirstPage ? 1 : Model.CurrentPage - 1;
+            if (isCompact && !(Model.CurrentPage <= pagingOffset + 1))
+            {
+                <li>
+                    <a href='@Model.GetPageLink(1)'>
+                        <span class='icon-double-right-arrow'></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href='@Model.GetPageLink(previousPage)'>
+                        <span class='icon-right-arrow'></span>
+                    </a>
+                </li>
+
+                <li class='paginator-dots'>
+                    ...
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href='@Model.GetPageLink(previousPage)'>
+                        <span class='icon-right-arrow'></span>
+                    </a>
+                </li>
+            }
+        }
+
+        @for (int pageNumber = floor; pageNumber <= ceiling; pageNumber++)
+        {
+            <li @(Model.CurrentPage == pageNumber ? "class=active" : string.Empty)>
+                <a class='pageNumber' href='@Model.GetPageLink(pageNumber)'> @pageNumber </a>
+            </li>
+        }
+
+        @if (!Model.IsLastPage)
+        {
+            var nextPage = Model.IsLastPage ? Model.TotalPages : Model.CurrentPage + 1;
+            @if (isCompact && !(Model.CurrentPage >= Model.TotalPages - pagingOffset))
+            {
+                <li class='paginator-dots'>
+                    ...
+                </li>
+                <li>
+                    <a href='@Model.GetPageLink(nextPage)'>
+                        <span class='icon-left-arrow'></span>
+                    </a>
+                </li>
+                <li>
+                    <a href='@Model.GetPageLink(Model.TotalPages)'>
+                        <span class='icon-double-left-arrow'></span>
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href='@Model.GetPageLink(nextPage)'>
+                        <span class='icon-left-arrow'></span>
+                    </a>
+                </li>
+            }
+        }
+    </ul>
+
+}

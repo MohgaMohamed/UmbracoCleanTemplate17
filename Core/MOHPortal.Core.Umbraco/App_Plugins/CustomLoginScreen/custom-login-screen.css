@@ -1,0 +1,14 @@
+﻿:root {
+    --umb-login-curves-display: none;
+}
+
+#umbraco-logo-mark {
+    background-image: url("/assets/images/logo-egypt.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#umbraco-logo-mark svg {
+    opacity: 0;
+}

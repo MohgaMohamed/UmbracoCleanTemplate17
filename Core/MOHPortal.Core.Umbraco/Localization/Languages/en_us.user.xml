@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en_us" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
+	<!--UMBRACO BACKOFFICE KEYS-->
+	<area alias="login">
+		<key alias="greeting0">مرحبًا</key>
+		<key alias="greeting1">مرحبًا</key>
+		<key alias="greeting2">مرحبًا</key>
+		<key alias="greeting3">مرحبًا</key>
+		<key alias="greeting4">مرحبًا</key>
+		<key alias="greeting5">مرحبًا</key>
+		<key alias="greeting6">مرحبًا</key>
+		<key alias="instruction">تسجيل الدخول أدناه</key>
+		<key alias="signInWith">تسجيل الدخول باستخدام</key>
+		<key alias="timeout">انتهت مهلة الجلسة</key>
+		<key alias="userFailedLogin">عذرًا! لم نتمكن من تسجيل دخولك. يرجى التحقق من بيانات الاعتماد الخاصة بك والمحاولة مرة أخرى.</key>
+		<key alias="bottomText"><![CDATA[<p style="text-align:right;">© 2001 - %0% <br><a href="https://umbraco.com" style="text-decoration: none" target="_blank" rel="noopener">Umbraco.com</a></p> ]]></key>
+		<key alias="forgottenPassword">هل نسيت كلمة المرور ؟</key>
+		<key alias="forgottenPasswordInstruction">
+			سيتم إرسال بريد إلكتروني إلى العنوان المحدد مع رابط لإعادة تعيين
+			كلمة المرور
+		</key>
+		<key alias="requestPasswordResetConfirmation">
+			سيتم إرسال بريد إلكتروني يحتوي على تعليمات إعادة تعيين كلمة المرور إلى
+			العنوان المحدد إذا كان مطابقًا لسجلاتنا
+		</key>
+		<key alias="showPassword">إظهار كلمة المرور</key>
+		<key alias="hidePassword">إخفاء كلمة المرور</key>
+		<key alias="returnToLogin">العودة إلى نموذج تسجيل الدخول</key>
+		<key alias="setPasswordInstruction">يرجى إدخال كلمة مرور جديدة</key>
+		<key alias="setPasswordConfirmation">تم تحديث كلمة المرور الخاصة بك</key>
+		<key alias="resetCodeExpired">الرابط الذي نقرت عليه غير صالح أو انتهت صلاحيته</key>
+		<key alias="resetPasswordEmailCopySubject">أومبراكو: إعادة تعيين كلمة المرور</key>
+		<key alias="resetPasswordEmailCopyFormat"><![CDATA[        @media only screen and (max - width: 620px) {table[class=body] h1 {font - size: 28px!important; margin - bottom: 10px! important;} table[class=body] .wrapper {padding: 32px!important;} table [class = body] .article {padding: 32px!important;} table [class = body] .content {padding: 24px! important;} table[class=body] .container {padding: 0! important; width: 100%!important; } table[class=body] .main {border - left - width: 0! important; border - right - width: 0! important;} table [class=body] .btn table {width: 100%!important; } table[class=body] .btn table {width: 100%! important;} table [class = body] .btn {width]          . {width: 100%! .btn {width: 100%!important; important; [class=body] .btn {order - right - width: 0 !important; border - right - width: 0 !important; border - right - width: 0!important;} table [class = body] .btn table[class=body] .btn table: 34954 - background: # hpx!important; # hol - date: 34954for - backfor - background: 34954; # colorfor - backfor - date: 34954; # urfor - level: 34954; # urn # url =# url          _name_name_name_link_link_name_name_name_link_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_link_name_name_name_name_name_name_name_name_name_name_name_name_     link     _name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_name_                                 ]]></key>
+		<key alias="mfaSecurityCodeSubject">أومبراكو: رمز الأمان</key>
+		<key alias="mfaSecurityCodeMessage">رمز الأمان الخاص بك هو: %0%</key>
+		<key alias="2faTitle">خطوة أخيرة</key>
+		<key alias="2faText">لقد قمت بتمكين المصادقة الثنائية ويجب عليك التحقق من هويتك.</key>
+		<key alias="2faMultipleText">يرجى اختيار مزود ثنائي العوامل</key>
+		<key alias="2faCodeInput">رمز التحقق</key>
+		<key alias="2faCodeInputHelp">يرجى إدخال رمز التحقق</key>
+		<key alias="2faInvalidCode">تم إدخال رمز غير صالح</key>
+	</area>
+	<area alias="general">
+		<key alias="email">البريد الإلكتروني</key>
+		<key alias="submit">إرسال</key>
+		<key alias="required" version="7.0">مطلوب</key>
+		<key alias="login">تسجيل الدخول</key>
+		<key alias="password">كلمة المرور</key>
+	</area>
+	<!--END UMBRACO BACKOFFICE KEYS-->
+
+	<area alias="Common">
+		<key alias="All">All</key>
+		<key alias="BackToHomePage">Back To Home Page</key>
+		<key alias="Caption">Caption</key>
+		<key alias="Content">Content</key>
+		<key alias="ContentNotFoundPage">Content Not Found</key>
+		<key alias="Download">Download</key>
+		<key alias="EndDate">End Date</key>
+		<key alias="EndYear">End Year</key>
+		<key alias="Error">Error</key>
+		<key alias="Error404">Error Not Found</key>
+		<key alias="FileSize">File Size</key>
+		<key alias="FileType">File Type</key>
+		<key alias="From">From</key>
+		<key alias="Image">Image</key>
+		<key alias="Images">Images</key>
+		<key alias="Keywords">Keywords</key>
+		<key alias="LanguageValidation">Language Validation</key>
+		<key alias="Link">Link</key>
+		<key alias="LookUpsContainer">LookUps Container</key>
+		<key alias="Lookup">Lookup</key>
+		<key alias="Next">Next</key>
+		<key alias="NoResults">No Results</key>
+		<key alias="Open">Open</key>
+		<key alias="Pagination">Navigation Settings</key>
+		<key alias="Previous">Previous</key>
+		<key alias="Search">Search</key>
+		<key alias="SearchPage">Search Page</key>
+		<key alias="SearchResults">Search Results</key>
+		<key alias="SearchResultsMessage">Search Results Message</key>
+		<key alias="Selection">Selection</key>
+		<key alias="Settings">Settings</key>
+		<key alias="Show">Show</key>
+		<key alias="ShowDetails">Show Details</key>
+		<key alias="ShowMore">Show More</key>
+		<key alias="SomethingWentWrong">Something Went Wrong</key>
+		<key alias="StartDate">Start Date</key>
+		<key alias="StartYear">Start Year</key>
+		<key alias="Title">Title</key>
+	</area>
+
+	<area alias="Compositions">
+		<key alias="ContainerCompositionName">Content</key>
+		<key alias="EntityContentCompositionName">Content</key>
+		<key alias="ListingPageCompositionName">Content</key>
+		<key alias="LookupCompositionName">Content</key>
+		<key alias="PageCompositionName">Rich Content</key>
+		<key alias="SearchableCompositionName">Searchable</key>
+	</area>
+
+	<area alias="GoogleAnalytics">
+		<key alias="AnalyticsTrackingCodePropertyName">Tracking Code</key>
+		<key alias="AnalyticsTrackingCodePropertyDescription">Google Analytics Tracking Code</key>
+		<key alias="DocumentName">Google Analytics Settings</key>
+		<key alias="SettingsTabName">Analytics</key>
+	</area>
+
+	<area alias="PaginatedListing">
+		<key alias="CompositionName">Paginated Listing</key>
+		<key alias="NumberOfItemsPerPagePropertyDescription">Number of Items Per Page</key>
+		<key alias="NumberOfItemsPerPagePropertyName">Number of Items Per Page</key>
+	</area>
+
+	<area alias="Seo">
+		<key alias="CompositionName">Search Engine Settings</key>
+		<key alias="MetaDescriptionPropertyDescription">Meta Description</key>
+		<key alias="MetaDescriptionPropertyName">Meta Description</key>
+		<key alias="MetaKeywordsPropertyDescription">Meta Keywords</key>
+		<key alias="MetaKeywordsPropertyName">Meta Keywords</key>
+		<key alias="MetaTitlePropertyDescription">Meta Title</key>
+		<key alias="MetaTitlePropertyName">Meta Title</key>
+		<key alias="SocialShareImagePropertyDescription">Social Share Image</key>
+		<key alias="SocialShareImagePropertyName">Social Share Image</key>
+	</area>
+
+	<area alias="SiteMap">
+		<key alias="ChangeFrequencyPropertyDescription">Days</key>
+		<key alias="ChangeFrequencyPropertyName">Change Frequency</key>
+		<key alias="CompositionName">Site Map</key>
+		<key alias="HideFromSiteMapPropertyDescription">Hide from Site Map</key>
+		<key alias="HideFromSiteMapPropertyName">Hide from Site Map</key>
+		<key alias="RelativeSeoPriorityPropertyDescription">Relative SEO Priority</key>
+		<key alias="RelativeSeoPriorityPropertyName">Relative SEO Priority</key>
+	</area>
+
+	<area alias="SiteSetting">
+		<key alias="ContentSettingsTabName">Content Settings</key>
+		<key alias="DefaultWebsiteImagePropertyDescription">Default Website Image</key>
+		<key alias="DefaultWebsiteImagePropertyName">Default Website Image</key>
+		<key alias="DocumentName">Site Settings</key>
+	</area>
+
+	<area alias="Tabs">
+		<key alias="Header">Website Header</key>
+		<key alias="Pagination">Navigation Settings</key>
+		<key alias="SiteMap">Site Map Settings</key>
+		<key alias="Seo">Seo Settings</key>
+	</area>
+
+	<area alias="Website">
+		<key alias="DocumentName">Website</key>
+		<key alias="WebsiteLogoPropertyName">Website Logo</key>
+		<key alias="WebsiteLogoPropertyDescription">Website Logo</key>
+		<key alias="SocialMediaLinksPropertyName">Social Media Links</key>
+		<key alias="SocialMediaLinksPropertyDescription">Social Media Links</key>
+	</area>
+
+	<area alias="SocialMediaLink">
+		<key alias="ElementName">Social Media Link</key>
+		<key alias="PlatformPropertyName">Platform Name</key>
+		<key alias="PlatformPropertyDescription">Platform Name</key>
+		<key alias="PageUrlPropertyName">Page Url</key>
+		<key alias="PageUrlPropertyDescription">Page Url</key>
+		<key alias="PlatformIconPropertyName">Platform Icon</key>
+		<key alias="PlatformIconPropertyDescription">Platform Icon</key>
+	</area>
+
+	<area alias="Validation">
+		<key alias="ContentCultureNotFound">Content Culture Not Found</key>
+		<key alias="ContentNotFound">Content Not Found</key>
+		<key alias="DateAfterTheCurrentDate">Date After The Current Date</key>
+		<key alias="EmailRequired">Email Required</key>
+		<key alias="EndDateSmallerThanStartDate">End Date Smaller Than Start Date</key>
+		<key alias="FileFormatPDF">File Format PDF</key>
+		<key alias="GeneralError">General Error</key>
+		<key alias="InvalidEmailFormat">Invalid Email Format</key>
+		<key alias="InvalidFileFormat">Invalid File Format</key>
+		<key alias="InvalidLink">Invalid Link</key>
+		<key alias="InvalidLinkFormat">Invalid Link Format</key>
+		<key alias="InvalidPhoneNumber">Invalid Phone Number</key>
+		<key alias="KeywordsLimitExceeded">Keywords Limit Exceeded</key>
+		<key alias="LettersOnly">Letters Only</key>
+		<key alias="LargeFileSize">Large File Size</key>
+		<key alias="NegativeNumbersNotAllowed">Negative Numbers Not Allowed</key>
+		<key alias="NumbersOnly">Numbers Only</key>
+		<key alias="NumbersOrLettersOnly">Numbers Or Letters Only</key>
+		<key alias="Required">Required</key>
+		<key alias="SingleEntityAlreadyExists">Single Entity Already Exists</key>
+		<key alias="KeywordValueCannotExceedLimit">Keywords Limit cannot Exceed {0}</key>
+		<key alias="CannotDeleteProtectedContent">Sorry, deleting Root Content is not allowed</key>
+	</area>
+</language>

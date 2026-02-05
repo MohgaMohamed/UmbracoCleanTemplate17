@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="10.0.2" />
+		<PackageReference Include="NUglify" Version="1.21.17" />
+		<PackageReference Include="Smidge" Version="4.6.0" />
+		<PackageReference Include="Umbraco.Cms" Version="17.1.0" />
+		<PackageReference Include="ClosedXML" Version="0.104.2" />
+		<PackageReference Include="uSync.BackOffice" Version="17.0.2" />
+	</ItemGroup>
+
+	<!--<PropertyGroup>
+		<UmbracoExtensionsFilesPath>$(MSBuildThisFileDirectory)\App_Plugins\**\*.*</UmbracoExtensionsFilesPath>
+	</PropertyGroup>
+
+	<Target Name="CopyUmbracoExtensionsAssets" BeforeTargets="Build">
+		<ItemGroup>
+			<UmbracoExtensionsDir Include="$(MSBuildThisFileDirectory)\..\..\Presentation\MOHPortal.Presentation.Web\App_Plugins\" />
+		</ItemGroup>
+		--><!--
+<Message Text="Removing old Extensions Files: $(MSBuildStartupDirectory)\Presentation\MOHPortal.Presentation.Web\App_Plugins" Importance="high" />
+<RemoveDir Directories="@(UmbracoExtensionsDir)" />
+		--><!--
+
+		<ItemGroup>
+			<UmbracoExtensionsContentFiles Include="$(UmbracoExtensionsFilesPath)" />
+		</ItemGroup>
+		<Message Text="Copying Extensions files: $(UmbracoExtensionsFilesPath) - #@(UmbracoExtensionsContentFiles-&gt;Count()) files" Importance="high" />
+		<Copy SourceFiles="@(UmbracoExtensionsContentFiles)" DestinationFiles="@(UmbracoExtensionsContentFiles->'$(MSBuildThisFileDirectory)..\..\Presentation\MOHPortal.Presentation.Web\App_Plugins\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+	</Target>-->
+
+	<!--Language Files Build Task-->
+	<!--<PropertyGroup>
+		<UmbracoLocalizationLanguageFilesPath>$(MSBuildThisFileDirectory)\Localization\Languages\**\*.*</UmbracoLocalizationLanguageFilesPath>
+	</PropertyGroup>
+
+	<Target Name="CopyLocalizationLanguageFiles" BeforeTargets="Build">
+		<ItemGroup>
+			<UmbracoLocalizationLanguageFilesCopyDir Include="$(UmbracoLocalizationLanguageFilesPath)" />
+		</ItemGroup>
+
+		<Message Text="Removing old Language Files From: @(UmbracoLocalizationLanguageFilesCopyDir)" Importance="high" />
+		<RemoveDir Directories="@(UmbracoLocalizationLanguageFilesCopyDir)" />
+
+		<Message Text="Copying Languages files From: $(UmbracoLocalizationLanguageFilesPath) - #@(UmbracoLocalizationLanguageFilesCopyDir-&gt;Count()) files" Importance="high" />
+		<Copy SourceFiles="@(UmbracoLocalizationLanguageFilesCopyDir)" DestinationFiles="@(UmbracoLocalizationLanguageFilesCopyDir->'$(MSBuildThisFileDirectory)\..\..\Presentation\MOHPortal.Presentation.Web\config\lang\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+	</Target>-->
+
+
+	<!--<ItemGroup>
+		<Content Include="App_Plugins\RejectButton\editor.css" />
+		<Content Include="App_Plugins\RejectButton\editor.html" />
+		<Content Include="App_Plugins\ApproveButton\editor.css" />
+		<Content Include="App_Plugins\ApproveButton\editor.html" />
+		<Content Include="App_Plugins\CustomLoginScreen\custom-login-screen.css" />
+		<Content Include="App_Plugins\InvariantDatePicker\editor.css" />
+		<Content Include="App_Plugins\InvariantDatePicker\editor.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="App_Plugins\RejectButton\editor.controller.js" />
+		<None Include="App_Plugins\RejectButton\package.manifest" />
+		<None Include="App_Plugins\ApproveButton\editor.controller.js">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</None>
+		<None Include="App_Plugins\ApproveButton\package.manifest" />
+		<None Include="App_Plugins\CustomLoginScreen\package.manifest" />
+		<None Include="App_Plugins\InvariantDatePicker\editor.controller.js" />
+		<None Include="App_Plugins\InvariantDatePicker\package.manifest" />
+	</ItemGroup>-->
+
+	<ItemGroup>
+		<ProjectReference Include="..\MOHPortal.Core.Domain\MOHPortal.Core.Domain.csproj" />
+	</ItemGroup>
+</Project>

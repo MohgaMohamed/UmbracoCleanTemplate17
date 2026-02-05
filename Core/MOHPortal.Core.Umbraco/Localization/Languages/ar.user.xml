@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="ar" intName="arabic" localName="arabic" lcid="1025" الثقافة="ar-SA">
+	<area alias="Compositions">
+		<key alias="ContainerCompositionName">محتوى</key>
+		<key alias="EntityContentCompositionName">محتوى</key>
+		<key alias="ListingPageCompositionName">محتوى</key>
+		<key alias="LookupCompositionName">محتوى</key>
+		<key alias="PageCompositionName">محتوى غني</key>
+		<key alias="SearchableCompositionName">قابل للبحث</key>
+	</area>
+
+	<area alias="Common">
+		<key alias="All">الكل</key>
+		<key alias="BackToHomePage">العودة للصفحة الرئيسية</key>
+		<key alias="Caption">مسمى</key>
+		<key alias="Content">محتوى</key>
+		<key alias="ContentNotFoundPage">لا يوجد</key>
+		<key alias="Download">تحميل الملف</key>
+		<key alias="EndDate">تاريخ الانتهاء</key>
+		<key alias="EndYear">سنة الانتهاء</key>
+		<key alias="Error">خطأ</key>
+		<key alias="Error404"> خطأ 404</key>
+		<key alias="FileSize">حجم الملف</key>
+		<key alias="FileType">نوع الملف</key>
+		<key alias="From">من</key>
+		<key alias="Images">صور</key>
+		<key alias="Image">صورة</key>
+		<key alias="Keywords">كلمات مفتاحية</key>
+		<key alias="LanguageValidation">من فضلك تأكد من ادخال الموضوع باللغة العربية و اللغة الانجليزية</key>
+		<key alias="Link">رابط</key>
+		<key alias="LookUpsContainer">القوائم الخلفية</key>
+		<key alias="Lookup"></key>
+		<key alias="Next">السابق</key>
+		<key alias="NoResults">لا يوجد نتائج</key>
+		<key alias="Open">اظهار الملف</key>
+		<key alias="Pagination">اعدادات التصفح</key>
+		<key alias="Previous">التالي</key>
+		<key alias="Search">ابحث</key>
+		<key alias="SearchPage">صفحة البحث</key>
+		<key alias="SearchResults">نتائج البحث</key>
+		<key alias="SearchResultsMessage">جاري عرض {0} نتائج</key>
+		<key alias="Selection">اختيار</key>
+		<key alias="Settings">الاعدادات</key>
+		<key alias="Show">اظهر</key>
+		<key alias="ShowDetails">عرض التفاصيل</key>
+		<key alias="ShowMore"> المزيد</key>
+		<key alias="SomethingWentWrong">حدث خطأ ما، يرجى المحاولة مرة أخرى لاحقا</key>
+		<key alias="StartDate">تاريخ البدء</key>
+		<key alias="StartYear">سنة البدء</key>
+		<key alias="Title">عنوان</key>
+		<key alias="Website"> الموقع</key>
+		<key alias="Success">عملية ناجحة</key>
+	</area>
+
+	<area alias="GoogleAnalytics">
+		<key alias="AnalyticsTrackingCodePropertyName">رمز التتبع</key>
+		<key alias="AnalyticsTrackingCodePropertyDescription">رمز تتبع Google Analytics</key>
+		<key alias="DocumentName">إعدادات Google Analytics</key>
+		<key alias="SettingsTabName">التحليلات</key>
+	</area>
+
+	<area alias="PaginatedListing">
+		<key alias="CompositionName">قائمة مرقمة الصفحات</key>
+		<key alias="NumberOfItemsPerPagePropertyDescription">عدد العناصر في الصفحة</key>
+		<key alias="NumberOfItemsPerPagePropertyName">عدد العناصر في الصفحة</key>
+	</area>
+
+	<area alias="Seo">
+		<key alias="CompositionName">إعدادات محرك البحث</key>
+		<key alias="MetaDescriptionPropertyDescription">الوصف التعريفي</key>
+		<key alias="MetaDescriptionPropertyName">الوصف التعريفي</key>
+		<key alias="MetaKeywordsPropertyDescription">الكلمات الرئيسية الوصفية</key>
+		<key alias="MetaKeywordsPropertyName">الكلمات الرئيسية الوصفية</key>
+		<key alias="MetaTitlePropertyDescription">عنوان التعريف</key>
+		<key alias="MetaTitlePropertyName">عنوان التعريف</key>
+		<key alias="SocialShareImagePropertyDescription">صورة المشاركة الاجتماعية</key>
+		<key alias="SocialShareImagePropertyName">صورة المشاركة الاجتماعية</key>
+	</area>
+
+	<area alias="SiteMap">
+		<key alias="ChangeFrequencyPropertyDescription">أيام</key>
+		<key alias="ChangeFrequencyPropertyName">معدل التغيير</key>
+		<key alias="CompositionName">خريطة الموقع</key>
+		<key alias="HideFromSiteMapPropertyDescription">إخفاء من خريطة الموقع</key>
+		<key alias="HideFromSiteMapPropertyName">إخفاء من خريطة الموقع</key>
+		<key alias="RelativeSeoPriorityPropertyDescription">الأولوية النسبية لمحرك البحث</key>
+		<key alias="RelativeSeoPriorityPropertyName">الأولوية النسبية لمحرك البحث</key>
+	</area>
+
+	<area alias="SiteSetting">
+		<key alias="ContentSettingsTabName">اعدادات المحتوي</key>
+		<key alias="DefaultWebsiteImagePropertyDescription">الصورة الافتراضية للموقع</key>
+		<key alias="DefaultWebsiteImagePropertyName">الصورة الافتراضية للموقع</key>
+		<key alias="DocumentName">اعدادات الموقع</key>
+	</area>
+
+	<area alias="Tabs">
+		<key alias="Header">الرأسية</key>
+		<key alias="Pagination">اعدادات التصفح</key>
+		<key alias="SiteMap">إعدادات خريطة الموقع</key>
+		<key alias="Seo">إعدادات محرك البحث</key>
+	</area>
+	
+	<area alias="Website">
+		<key alias="DocumentName">موقع إلكتروني</key>
+		<key alias="WebsiteLogoPropertyName">شعار الموقع</key>
+		<key alias="WebsiteLogoPropertyDescription">شعار الموقع</key>
+		<key alias="SocialMediaLinksPropertyName">روابط وسائل التواصل الاجتماعي</key>
+		<key alias="SocialMediaLinksPropertyDescription">روابط وسائل التواصل الاجتماعي</key>
+	</area>
+
+	<area alias="SocialMediaLink">
+		<key alias="ElementName">رابط وسائل التواصل الاجتماعي</key>
+		<key alias="PlatformPropertyName">اسم المنصة</key>
+		<key alias="PlatformPropertyDescription">اسم المنصة</key>
+		<key alias="PageUrlPropertyName">رابط الصفحة</key>
+		<key alias="PageUrlPropertyDescription">رابط الصفحة</key>
+		<key alias="PlatformIconPropertyName">رمز المنصة</key>
+		<key alias="PlatformIconPropertyDescription">رمز المنصة</key>
+	</area>
+
+	<area alias="Validation">
+		<key alias="ContentCultureNotFound">عفوا, لا يوجد بانات باللغة العربية للمحتوى: "{0}"</key>
+		<key alias="ContentNotFound">لا يوجد محتوى</key>
+		<key alias="DateAfterTheCurrentDate">عفوا يجب ادخال تاريخ بعد التاريخ الحالي بيوم واحد علي الأقل</key>
+		<key alias="EmailRequired">الرجاء إدخال عنوان بريدك الإلكتروني</key>
+		<key alias="EndDateSmallerThanStartDate">عفوا يجب ادخال تاريخ يداية قبل تاريخ الانتهاء </key>
+		<key alias="FileFormatPDF">عفوا يجب ان تكون صيغة الملف pdf  </key>
+		<key alias="GeneralError">حدث خطأ</key>
+		<key alias="InvalidEmailFormat">يجب ادخال البريد الالكتروني بصيغة صحيحة</key>
+		<key alias="InvalidFileFormat">عفو صيغة الملف غير صحيحة</key>
+		<key alias="InvalidLink">عفوا الرابط غير صحيح </key>
+		<key alias="InvalidLinkFormat">يجب ادخال الرابط الالكتروني بصيغة صحيحة</key>
+		<key alias="InvalidPhoneNumber">عفو رقم الهاتف غير صحيح</key>
+		<key alias="KeywordsLimitExceeded">عفوا يرجى ادخال {0} كلمات مفتاحية كحد اقصى</key>
+		<key alias="LettersOnly">عفوا هذا الحقل يقبل ادخال حروف فقط</key>
+		<key alias="LargeFileSize">عفو حجم الملف كبير جدًا</key>
+		<key alias="NegativeNumbersNotAllowed">عفوا هذا الحقل لا يقبل الارقام السلبية</key>
+		<key alias="NumbersOnly">عفوا هذا الحقل يقبل ادخال ارقام فقط</key>
+		<key alias="NumbersOrLettersOnly">عفوا لا يمكن ادخال رموز، يرجي ادخال حروف و/أوأرقام فقط</key>
+		<key alias="Required">عفوا، يرجي ادخال الحقول الاجبارية أولا .</key>
+		<key alias="SingleEntityAlreadyExists">لا يمكن اضافة محتوي اخر من نوع "{0}", الموقع يحتوي على: "{1}"</key>
+		<key alias="KeywordValueCannotExceedLimit">عفوا يرجى ادخال {0} كلمات</key>
+		<key alias="CannotDeleteProtectedContent">عذرًا، لا يمكن حذف "محتوى رئيسي"</key>
+
+	</area>
+</language>

@@ -1,0 +1,42 @@
+{
+    "propertyEditors": [
+      {
+        /*this must be a unique alias*/
+        "alias": "invariantDatePicker",
+        /*the name*/
+        "name": "ASSET Date Time Picker",
+        /*the icon*/
+        "icon": "icon-list",
+        /*grouping for "Select editor" dialog*/
+        "group": "Common",
+        /*the HTML file we will load for the editor*/
+        "editor": {
+          "view": "/App_Plugins/InvariantDatePicker/editor.html",
+          "valueType": "DATETIME"
+        },
+        "prevalues": {
+          "fields": [
+            {
+              "label": "Date Format",
+              "description": "If left empty then the format is YYYY-MM-DD. (see momentjs.com for supported formats)",
+              "key": "format",
+              "view": "textstring"
+            },
+            {
+              "label": "Offset Server Time",
+              "description": "When enabled the time displayed will be offset with the server's timezone, this is useful for scenarios like scheduled publishing when an editor is in a different timezone than the hosted server",
+              "key": "offsetTime",
+              "view": "boolean"
+            }
+          ]
+        }
+      }
+    ],
+     // array of files we want to inject into the application on app_start
+  "css": [
+    "/App_Plugins/InvariantDatePicker/editor.css"
+  ],
+  "javascript": [
+    "/App_Plugins/InvariantDatePicker/editor.controller.js"
+  ]
+}

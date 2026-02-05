@@ -1,0 +1,31 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using MOHPortal.Core.Umbraco.SEO.Contracts
+@using MOHPortal.Core.Umbraco.SEO.Models
+@inject ISEOService _SeoService
+@{
+    //var currentCulture = Umbraco.CultureDictionary.Culture.ToString();
+    SeoModel seoModel = _SeoService.GetSeoModel(Model);
+    string keywordsString = seoModel.Tags.Count > default(int) ? string.Join(",", seoModel.Tags) : string.Empty;
+}
+@{
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@seoModel.Title</title>
+    <link rel="icon" href="/assets/images/System Logo download.png" />
+    <meta name="description" content="@seoModel.Description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="@seoModel.Title">
+    <meta name="keywords" content="@keywordsString">
+    <meta property="og:title" content="@seoModel.Title">
+    <meta property="og:description" content="@seoModel.Description">
+    <meta property="og:image" content="@seoModel.SocialMediaShareImage" />
+    <meta property="og:url" content="@seoModel.Url">
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@seoModel.Title">
+    <meta name="twitter:description" content="@seoModel.Description">
+    <meta name="twitter:image" content="@seoModel.SocialMediaShareImage">
+    <meta name="author" content="https://asset-technology.com/">
+    <meta name="format-detection" content="telephone=no">
+}

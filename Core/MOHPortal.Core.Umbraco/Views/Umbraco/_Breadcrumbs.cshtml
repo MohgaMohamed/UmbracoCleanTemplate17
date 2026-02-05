@@ -1,0 +1,33 @@
+﻿@using Umbraco.Cms.Core.Models.PublishedContent
+@using Umbraco.Cms.Web.Common.Views
+@inherits UmbracoViewPage
+@{
+    var currentPage = UmbracoContext.PublishedRequest.PublishedContent;
+    List<IPublishedContent> currentPageAncestors = currentPage.AncestorsOrSelf().ToList();
+}
+
+<ul class="sitebreadcrumb">
+    <li>
+        <span class="icon-home"></span>
+    </li>
+    @if (currentPageAncestors.Any())
+    {
+        foreach (var pageAncestor in currentPageAncestors.OrderBy(x => x.Level))
+        {
+            @* if (!pageAncestor.ContentType.Alias.Equals( WebSiteRoot.ModelTypeAlias, StringComparison.OrdinalIgnoreCase))
+            {
+                <li>
+                    @if (pageAncestor.TemplateId == null) // Check if the page has no template
+                    {
+                        @pageAncestor.Name
+                    }
+                    else
+                    {
+                        <a href="@pageAncestor.Url()" title="@pageAncestor.Name">@pageAncestor.Name</a>
+                    }
+                </li>
+            } *@
+        }
+    }
+</ul>
+
