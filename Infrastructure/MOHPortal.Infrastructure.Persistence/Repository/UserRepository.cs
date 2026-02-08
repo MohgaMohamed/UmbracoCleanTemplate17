@@ -1,6 +1,6 @@
-﻿using MOHPortal.Infrastructure.Persistence.DbContext;
+﻿using FayoumGovPortal.Infrastructure.Persistence.DbContext;
 
-namespace MOHPortal.Infrastructure.Persistence.Repository
+namespace  FayoumGovPortal.Infrastructure.Persistence.Repository
 {
     class UserRepository //: BaseRepository<User>, IUserRepository
     {

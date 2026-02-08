@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.MediaFiles.Helpers
+﻿namespace FayoumGovPortal.Core.Umbraco.MediaFiles.Helpers
 {
     public interface IExcelHelper
     {

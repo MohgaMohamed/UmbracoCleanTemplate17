@@ -1,10 +1,10 @@
 ﻿using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-using MOHPortal.Core.Contracts.IRepository.Base;
-using MOHPortal.Core.Domain.Enums;
-using MOHPortal.Infrastructure.Persistence.DbContext;
+using FayoumGovPortal.Core.Contracts.IRepository.Base;
+using FayoumGovPortal.Core.Domain.Enums;
+using FayoumGovPortal.Infrastructure.Persistence.DbContext;
 
-namespace MOHPortal.Infrastructure.Persistence.Repository.Base
+namespace  FayoumGovPortal.Infrastructure.Persistence.Repository.Base
 {
     internal abstract class BaseRepository<T> : IBaseRepository<T> where T : class
     {

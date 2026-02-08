@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Components.Forms;
-using MOHPortal.Core.Umbraco.Localization;
-using MOHPortal.Core.Umbraco.Model.Gen;
+using FayoumGovPortal.Core.Umbraco.Localization;
+using FayoumGovPortal.Core.Umbraco.Model.Gen;
 using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Notifications;
 
-namespace MOHPortal.Core.Umbraco.ProtectedContent
+namespace  FayoumGovPortal.Core.Umbraco.ProtectedContent
 {
     internal class ProtectedContentDeletingNotificationHandler : INotificationHandler<ContentMovingToRecycleBinNotification>
     {

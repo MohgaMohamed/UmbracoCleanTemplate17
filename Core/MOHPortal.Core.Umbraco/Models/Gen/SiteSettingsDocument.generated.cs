@@ -16,7 +16,7 @@ using Umbraco.Cms.Infrastructure.ModelsBuilder;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
 
-namespace MOHPortal.Core.Umbraco.Model.Gen
+namespace  FayoumGovPortal.Core.Umbraco.Model.Gen
 {
 	/// <summary>#SiteSettings_DocumentName</summary>
 	[PublishedModel("siteSettingsDocument")]
@@ -63,6 +63,6 @@ namespace MOHPortal.Core.Umbraco.Model.Gen
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "17.1.0+2832436")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("analyticsTrackingCode")]
-		public virtual string AnalyticsTrackingCode => global::MOHPortal.Core.Umbraco.Model.Gen.GoogleAnalyticsDocument.GetAnalyticsTrackingCode(this, _publishedValueFallback);
+		public virtual string AnalyticsTrackingCode => global::FayoumGovPortal.Core.Umbraco.Model.Gen.GoogleAnalyticsDocument.GetAnalyticsTrackingCode(this, _publishedValueFallback);
 	}
 }

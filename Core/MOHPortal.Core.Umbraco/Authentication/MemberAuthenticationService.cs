@@ -1,8 +1,8 @@
 ﻿//using DocumentFormat.OpenXml.Office2010.Excel;
 //using Microsoft.Extensions.Options;
-//using MOHPortal.Core.Umbraco.Localization;
-//using MOHPortal.Core.Umbraco.Model.Gen;
-//using MOHPortal.Core.Umbraco.PageServices;
+//using FayoumGovPortal.Core.Umbraco.Localization;
+//using FayoumGovPortal.Core.Umbraco.Model.Gen;
+//using FayoumGovPortal.Core.Umbraco.PageServices;
 //using Umbraco.Cms.Core.Configuration.Models;
 //using Umbraco.Cms.Core.Models;
 //using Umbraco.Cms.Core.Models.PublishedContent;
@@ -10,7 +10,7 @@
 //using Umbraco.Cms.Core.Services;
 //using Umbraco.Cms.Web.Common.Security;
 
-//namespace MOHPortal.Core.Umbraco.Authentication
+//namespace  FayoumGovPortal.Core.Umbraco.Authentication
 //{
 //    internal class MemberAuthenticationService : IMemberAuthenticationService
 //    {

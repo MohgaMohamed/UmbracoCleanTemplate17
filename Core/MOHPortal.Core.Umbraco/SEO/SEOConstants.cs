@@ -1,6 +1,6 @@
 ﻿using Lucene.Net.Codecs.Compressing;
 
-namespace MOHPortal.Core.Umbraco.SEO
+namespace  FayoumGovPortal.Core.Umbraco.SEO
 {
     internal class SEOConstants
     {

@@ -1,9 +1,9 @@
-﻿using MOHPortal.Core.Umbraco.DocumentValidator.Base;
-using MOHPortal.Core.Umbraco.DocumentValidator.Models;
+﻿using FayoumGovPortal.Core.Umbraco.DocumentValidator.Base;
+using FayoumGovPortal.Core.Umbraco.DocumentValidator.Models;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Models.PublishedContent;
 
-namespace MOHPortal.Core.Umbraco.DocumentValidator.Contracts
+namespace FayoumGovPortal.Core.Umbraco.DocumentValidator.Contracts
 {
     /// <summary>
     /// [MS] This class Represents a Validator for a specific Document Type

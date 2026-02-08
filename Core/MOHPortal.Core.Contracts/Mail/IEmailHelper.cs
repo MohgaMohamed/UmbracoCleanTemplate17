@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Contracts.Mail
+﻿namespace FayoumGovPortal.Core.Contracts.Mail
 {
     public interface IEmailHelper
     {

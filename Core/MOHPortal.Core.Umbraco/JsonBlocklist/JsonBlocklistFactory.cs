@@ -1,8 +1,8 @@
-﻿using MOHPortal.Core.Umbraco.JsonBlocklist.Base;
-using MOHPortal.Core.Umbraco.JsonBlocklist.Models;
+﻿using FayoumGovPortal.Core.Umbraco.JsonBlocklist.Base;
+using FayoumGovPortal.Core.Umbraco.JsonBlocklist.Models;
 using System.Text.Json;
 
-namespace MOHPortal.Core.Umbraco.JsonBlocklist
+namespace FayoumGovPortal.Core.Umbraco.JsonBlocklist
 {
     public class JsonBlocklistFactory<TContentData> where TContentData : JsonBlockListContentData
     {

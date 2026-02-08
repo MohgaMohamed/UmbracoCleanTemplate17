@@ -1,9 +1,9 @@
-﻿using MOHPortal.Core.Umbraco.DocumentValidator.Models;
+﻿using FayoumGovPortal.Core.Umbraco.DocumentValidator.Models;
 using System.Linq.Expressions;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Models.PublishedContent;
 
-namespace MOHPortal.Core.Umbraco.DocumentValidator.Base
+namespace FayoumGovPortal.Core.Umbraco.DocumentValidator.Base
 {
     public abstract class ValidatorBase<TModel> where TModel : IPublishedContent
     {

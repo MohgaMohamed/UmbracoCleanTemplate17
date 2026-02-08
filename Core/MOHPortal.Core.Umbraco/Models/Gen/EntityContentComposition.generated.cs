@@ -16,7 +16,7 @@ using Umbraco.Cms.Infrastructure.ModelsBuilder;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
 
-namespace MOHPortal.Core.Umbraco.Model.Gen
+namespace FayoumGovPortal.Core.Umbraco.Model.Gen
 {
 	/// <summary>#Compositions_EntityContentCompositionName</summary>
 	[PublishedModel("entityContentComposition")]

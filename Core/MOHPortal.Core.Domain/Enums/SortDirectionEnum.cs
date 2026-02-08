@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Domain.Enums
+﻿namespace FayoumGovPortal.Core.Domain.Enums
 {
     public enum SortDirectionEnum
     {

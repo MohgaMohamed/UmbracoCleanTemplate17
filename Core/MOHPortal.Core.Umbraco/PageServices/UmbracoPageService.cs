@@ -1,4 +1,4 @@
-﻿using MOHPortal.Core.Umbraco.Model.Gen;
+﻿using FayoumGovPortal.Core.Umbraco.Model.Gen;
 using System.Diagnostics.CodeAnalysis;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Models;
@@ -6,7 +6,7 @@ using Umbraco.Cms.Core.Models.PublishedContent;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Core.Strings;
 
-namespace MOHPortal.Core.Umbraco.PageServices
+namespace  FayoumGovPortal.Core.Umbraco.PageServices
 {
     internal class UmbracoPageService : IUmbracoPageService
     {

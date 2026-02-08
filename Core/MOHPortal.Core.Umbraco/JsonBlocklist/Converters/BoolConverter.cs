@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace MOHPortal.Core.Umbraco.JsonBlocklist.Converters
+namespace FayoumGovPortal.Core.Umbraco.JsonBlocklist.Converters
 {
     public class BoolConverter : JsonConverter<bool>
     {

@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.SiteSettings
+﻿namespace  FayoumGovPortal.Core.Umbraco.SiteSettings
 {
     internal class SiteSettingsConstants
     {

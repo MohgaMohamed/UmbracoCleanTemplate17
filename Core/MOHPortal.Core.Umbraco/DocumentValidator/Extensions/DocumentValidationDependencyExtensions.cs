@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using MOHPortal.Core.Umbraco.DocumentValidator.Contracts;
+using FayoumGovPortal.Core.Umbraco.DocumentValidator.Contracts;
 using System.Reflection;
 
-namespace MOHPortal.Core.Umbraco.DocumentValidator.Extensions
+namespace FayoumGovPortal.Core.Umbraco.DocumentValidator.Extensions
 {
     public static class DocumentValidationDependencyExtensions
     {

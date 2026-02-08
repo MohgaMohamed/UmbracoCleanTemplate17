@@ -2,7 +2,7 @@
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Notifications;
 
-namespace MOHPortal.Core.Umbraco.NotificationHooks.NotificationHandlers
+namespace  FayoumGovPortal.Core.Umbraco.NotificationHooks.NotificationHandlers
 {
     internal class ContentSavingNotificationHandler : INotificationAsyncHandler<ContentSavingNotification>
     {

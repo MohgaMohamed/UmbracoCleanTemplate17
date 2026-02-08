@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.MediaFiles.Models
+﻿namespace FayoumGovPortal.Core.Umbraco.MediaFiles.Models
 {
     public class MediaNotificationHandlerSettings
     {

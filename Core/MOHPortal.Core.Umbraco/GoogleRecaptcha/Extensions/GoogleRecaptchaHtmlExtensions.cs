@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using MOHPortal.Core.Umbraco.GoogleRecaptcha.Contracts;
+using FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Contracts;
 
-namespace MOHPortal.Core.Umbraco.GoogleRecaptcha.Extensions
+namespace FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Extensions
 {
     public static class GoogleRecaptchaHtmlExtensions
     {

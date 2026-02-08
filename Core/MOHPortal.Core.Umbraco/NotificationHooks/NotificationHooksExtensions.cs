@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using MOHPortal.Core.Umbraco.DocumentValidator.Contracts;
+using FayoumGovPortal.Core.Umbraco.DocumentValidator.Contracts;
 using System.ComponentModel.Design;
 using System.Reflection;
 
-namespace MOHPortal.Core.Umbraco.NotificationHooks
+namespace  FayoumGovPortal.Core.Umbraco.NotificationHooks
 {
     public static class NotificationHooksExtensions
     {

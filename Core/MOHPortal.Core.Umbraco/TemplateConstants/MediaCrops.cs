@@ -1,6 +1,6 @@
 ﻿using Umbraco.Cms.Web.Common.AspNetCore;
 
-namespace MOHPortal.Core.Umbraco.TemplateConstants
+namespace  FayoumGovPortal.Core.Umbraco.TemplateConstants
 {
     public static class MediaCrops
     {

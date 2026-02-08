@@ -1,7 +1,7 @@
 ﻿using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Notifications;
 
-namespace MOHPortal.Core.Umbraco.NotificationHooks
+namespace  FayoumGovPortal.Core.Umbraco.NotificationHooks
 {
     public interface INotificationHook
     {

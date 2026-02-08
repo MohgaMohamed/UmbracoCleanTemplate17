@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using MOHPortal.Core.Application.AppService.Base;
-using MOHPortal.Core.Contracts.IAppService.Base;
+using FayoumGovPortal.Core.Application.AppService.Base;
+using FayoumGovPortal.Core.Contracts.IAppService.Base;
 
-namespace MOHPortal.Core.Application.Resolver
+namespace FayoumGovPortal.Core.Application.Resolver
 {
     public static class AppServiceResolver
     {

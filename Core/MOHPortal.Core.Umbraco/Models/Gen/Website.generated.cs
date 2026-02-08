@@ -16,7 +16,7 @@ using Umbraco.Cms.Infrastructure.ModelsBuilder;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
 
-namespace MOHPortal.Core.Umbraco.Model.Gen
+namespace  FayoumGovPortal.Core.Umbraco.Model.Gen
 {
 	/// <summary>#Website_DocumentName</summary>
 	[PublishedModel("website")]
@@ -71,7 +71,7 @@ namespace MOHPortal.Core.Umbraco.Model.Gen
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "17.1.0+2832436")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("metaDescription")]
-		public virtual string MetaDescription => global::MOHPortal.Core.Umbraco.Model.Gen.SeoContentComposition.GetMetaDescription(this, _publishedValueFallback);
+		public virtual string MetaDescription => global::FayoumGovPortal.Core.Umbraco.Model.Gen.SeoContentComposition.GetMetaDescription(this, _publishedValueFallback);
 
 		///<summary>
 		/// #Seo_MetaKeywordsPropertyName: #Seo_MetaKeywordsPropertyDescription
@@ -79,7 +79,7 @@ namespace MOHPortal.Core.Umbraco.Model.Gen
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "17.1.0+2832436")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("metaKeywords")]
-		public virtual global::System.Collections.Generic.IEnumerable<string> MetaKeywords => global::MOHPortal.Core.Umbraco.Model.Gen.SeoContentComposition.GetMetaKeywords(this, _publishedValueFallback);
+		public virtual global::System.Collections.Generic.IEnumerable<string> MetaKeywords => global::FayoumGovPortal.Core.Umbraco.Model.Gen.SeoContentComposition.GetMetaKeywords(this, _publishedValueFallback);
 
 		///<summary>
 		/// #Seo_MetaTitlePropertyName: #Seo_MetaTitlePropertyDescription
@@ -87,7 +87,7 @@ namespace MOHPortal.Core.Umbraco.Model.Gen
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "17.1.0+2832436")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("metaTitle")]
-		public virtual string MetaTitle => global::MOHPortal.Core.Umbraco.Model.Gen.SeoContentComposition.GetMetaTitle(this, _publishedValueFallback);
+		public virtual string MetaTitle => global::FayoumGovPortal.Core.Umbraco.Model.Gen.SeoContentComposition.GetMetaTitle(this, _publishedValueFallback);
 
 		///<summary>
 		/// #Seo_SocialShareImagePropertyName: #Seo_SocialShareImagePropertyDescription
@@ -95,6 +95,6 @@ namespace MOHPortal.Core.Umbraco.Model.Gen
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "17.1.0+2832436")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("socialShareImage")]
-		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops SocialShareImage => global::MOHPortal.Core.Umbraco.Model.Gen.SeoContentComposition.GetSocialShareImage(this, _publishedValueFallback);
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops SocialShareImage => global::FayoumGovPortal.Core.Umbraco.Model.Gen.SeoContentComposition.GetSocialShareImage(this, _publishedValueFallback);
 	}
 }

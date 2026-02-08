@@ -1,7 +1,7 @@
-﻿using MOHPortal.Core.Umbraco.SEO.Models;
+﻿using FayoumGovPortal.Core.Umbraco.SEO.Models;
 using Umbraco.Cms.Core.Models.PublishedContent;
 
-namespace MOHPortal.Core.Umbraco.SEO.Contracts
+namespace  FayoumGovPortal.Core.Umbraco.SEO.Contracts
 {
     public interface ISEOService
     {

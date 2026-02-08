@@ -11,7 +11,7 @@ using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Core.Strings;
 using Umbraco.Cms.Infrastructure.Scoping;
 
-namespace MOHPortal.Core.Umbraco.MediaFiles.Helpers
+namespace FayoumGovPortal.Core.Umbraco.MediaFiles.Helpers
 {
     /// <summary>
     /// Helper class for managing media files in Umbraco's media library.

@@ -5,35 +5,35 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
-using MOHPortal.Core.Umbraco.GoogleRecaptcha.Contracts;
-using MOHPortal.Core.Umbraco.GoogleRecaptcha.Models;
-using MOHPortal.Core.Umbraco.GoogleRecaptcha;
-using MOHPortal.Core.Umbraco.Localization;
-using MOHPortal.Core.Umbraco.SEO.Contracts;
-using MOHPortal.Core.Umbraco.SEO;
-using MOHPortal.Core.Umbraco.Validation.Configuration;
-using MOHPortal.Core.Umbraco.Validation.Contracts;
-using MOHPortal.Core.Umbraco.Validation;
+using FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Contracts;
+using FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Models;
+using FayoumGovPortal.Core.Umbraco.GoogleRecaptcha;
+using FayoumGovPortal.Core.Umbraco.Localization;
+using FayoumGovPortal.Core.Umbraco.SEO.Contracts;
+using FayoumGovPortal.Core.Umbraco.SEO;
+using FayoumGovPortal.Core.Umbraco.Validation.Configuration;
+using FayoumGovPortal.Core.Umbraco.Validation.Contracts;
+using FayoumGovPortal.Core.Umbraco.Validation;
 using Umbraco.Cms.Core.Notifications;
-using MOHPortal.Core.Umbraco.SiteSettings;
-using MOHPortal.Core.Umbraco.ContentSearch.Configurations;
-using MOHPortal.Core.Umbraco.StaticAssetBundling.Settings;
-using MOHPortal.Core.Umbraco.StaticAssetBundling.Configuration;
-using MOHPortal.Core.Umbraco.ContentSearch;
-using MOHPortal.Core.Umbraco.DocumentValidator;
-using MOHPortal.Core.Umbraco.MediaFiles;
-using MOHPortal.Core.Umbraco.PageServices;
-using MOHPortal.Core.Umbraco.MediaFiles.Helpers;
-using MOHPortal.Core.Umbraco.MediaFiles.Models;
-using MOHPortal.Core.Umbraco.ProtectedContent;
-//using MOHPortal.Core.Umbraco.Authentication;
-using MOHPortal.Core.Umbraco.NotificationHooks.NotificationHandlers;
-using MOHPortal.Core.Umbraco.NotificationHooks;
-using MOHPortal.Core.Umbraco.uSync;
+using FayoumGovPortal.Core.Umbraco.SiteSettings;
+using FayoumGovPortal.Core.Umbraco.ContentSearch.Configurations;
+using FayoumGovPortal.Core.Umbraco.StaticAssetBundling.Settings;
+using FayoumGovPortal.Core.Umbraco.StaticAssetBundling.Configuration;
+using FayoumGovPortal.Core.Umbraco.ContentSearch;
+using FayoumGovPortal.Core.Umbraco.DocumentValidator;
+using FayoumGovPortal.Core.Umbraco.MediaFiles;
+using FayoumGovPortal.Core.Umbraco.PageServices;
+using FayoumGovPortal.Core.Umbraco.MediaFiles.Helpers;
+using FayoumGovPortal.Core.Umbraco.MediaFiles.Models;
+using FayoumGovPortal.Core.Umbraco.ProtectedContent;
+//using FayoumGovPortal.Core.Umbraco.Authentication;
+using FayoumGovPortal.Core.Umbraco.NotificationHooks.NotificationHandlers;
+using FayoumGovPortal.Core.Umbraco.NotificationHooks;
+using FayoumGovPortal.Core.Umbraco.uSync;
 using uSync.BackOffice;
 
 
-namespace MOHPortal.Core.Umbraco
+namespace  FayoumGovPortal.Core.Umbraco
 {
     public static class UmbracoLibraryBuilderExtensions
     {

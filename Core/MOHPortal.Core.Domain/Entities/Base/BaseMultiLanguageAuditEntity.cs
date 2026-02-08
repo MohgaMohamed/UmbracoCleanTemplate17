@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Domain.Entities.Base
+﻿namespace FayoumGovPortal.Core.Domain.Entities.Base
 {
     public class BaseMultiLanguageAuditEntity : BaseAuditEntity
     {

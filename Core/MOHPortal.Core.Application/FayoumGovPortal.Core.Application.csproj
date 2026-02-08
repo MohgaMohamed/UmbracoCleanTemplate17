@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\MOHPortal.Core.Contracts\MOHPortal.Core.Contracts.csproj" />
+    <Folder Include="Settings\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MOHPortal.Core.Contracts\FayoumGovPortal.Core.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

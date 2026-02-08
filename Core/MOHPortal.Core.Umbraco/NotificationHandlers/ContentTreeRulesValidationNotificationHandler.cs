@@ -1,4 +1,4 @@
-﻿using MOHPortal.Core.Umbraco.Localization;
+﻿using FayoumGovPortal.Core.Umbraco.Localization;
 using NUglify.Helpers;
 using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.Models;
@@ -7,7 +7,7 @@ using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Web.Common.PublishedModels;
 using Umbraco.Extensions;
 
-namespace MOHPortal.Core.Umbraco.NotificationHandlers
+namespace  FayoumGovPortal.Core.Umbraco.NotificationHandlers
 
 {
     internal class ContentTreeRulesValidationNotificationHandler(

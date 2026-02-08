@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.DocumentValidator.Models
+﻿namespace FayoumGovPortal.Core.Umbraco.DocumentValidator.Models
 {
     public sealed record DocumentValidationResult
     {

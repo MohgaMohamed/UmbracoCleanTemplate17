@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.NotificationHooks
+﻿namespace  FayoumGovPortal.Core.Umbraco.NotificationHooks
 {
     internal class NotificationStateManager
     {

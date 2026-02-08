@@ -1,6 +1,6 @@
 ﻿using Umbraco.Cms.Core.Models.PublishedContent;
 
-namespace MOHPortal.Core.Umbraco.Extensions
+namespace FayoumGovPortal.Core.Umbraco.Extensions
 {
     public static class PublishedContentEnumerableExtensions
     {

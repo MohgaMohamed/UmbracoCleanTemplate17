@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace MOHPortal.Core.Umbraco.JsonBlocklist.Models
+namespace FayoumGovPortal.Core.Umbraco.JsonBlocklist.Models
 {
     public class JsonBlockListContentUdi
     {

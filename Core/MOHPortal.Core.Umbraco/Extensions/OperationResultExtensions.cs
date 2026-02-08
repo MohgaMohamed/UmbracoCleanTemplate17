@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Umbraco.Cms.Core.Services;
 
-namespace MOHPortal.Core.Umbraco.Extensions
+namespace FayoumGovPortal.Core.Umbraco.Extensions
 {
     //TODO[AS]: Check usage with MA and MM to validate if needed or not
     public static class OperationResultExtensions

@@ -2,7 +2,7 @@
 using System.Web;
 using Umbraco.Cms.Core.Models.PublishedContent;
 
-namespace MOHPortal.Core.Umbraco.Paginator
+namespace  FayoumGovPortal.Core.Umbraco.Paginator
 {
     public class PublishedContentPaginator
     {

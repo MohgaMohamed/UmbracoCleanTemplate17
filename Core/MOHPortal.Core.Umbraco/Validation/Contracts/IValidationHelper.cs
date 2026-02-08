@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.Validation.Contracts
+﻿namespace  FayoumGovPortal.Core.Umbraco.Validation.Contracts
 {
     public interface IValidationHelper
     {

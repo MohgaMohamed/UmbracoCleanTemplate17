@@ -1,6 +1,6 @@
 ﻿using Umbraco.Cms.Core.Models;
 
-namespace MOHPortal.Core.Umbraco.SiteSettings
+namespace  FayoumGovPortal.Core.Umbraco.SiteSettings
 {
     public interface ISiteSettingsService
     {

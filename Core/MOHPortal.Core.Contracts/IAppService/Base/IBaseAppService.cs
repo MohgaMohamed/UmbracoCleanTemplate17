@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Contracts.IAppService.Base
+﻿namespace FayoumGovPortal.Core.Contracts.IAppService.Base
 {
     public interface IBaseAppService
     {

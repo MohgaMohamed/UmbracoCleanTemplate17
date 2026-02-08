@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace MOHPortal.Core.Umbraco.GoogleRecaptcha.Models
+namespace FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Models
 {
     internal record GoogleRecaptchaResponse
     {

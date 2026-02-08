@@ -1,6 +1,6 @@
 ﻿using Examine.Search;
 
-namespace MOHPortal.Core.Umbraco.ContentSearch.Model
+namespace FayoumGovPortal.Core.Umbraco.ContentSearch.Model
 {
     public sealed record SearchQueryDto
     {

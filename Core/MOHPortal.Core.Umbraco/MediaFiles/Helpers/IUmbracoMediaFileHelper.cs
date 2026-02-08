@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Umbraco.Cms.Core.Models;
 
-namespace MOHPortal.Core.Umbraco.MediaFiles.Helpers
+namespace FayoumGovPortal.Core.Umbraco.MediaFiles.Helpers
 {
     public interface IUmbracoMediaFileHelper
     {

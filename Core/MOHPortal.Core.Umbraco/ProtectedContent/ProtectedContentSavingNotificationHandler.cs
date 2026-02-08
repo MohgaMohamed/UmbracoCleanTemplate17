@@ -1,10 +1,10 @@
-﻿using MOHPortal.Core.Umbraco.Localization;
-using MOHPortal.Core.Umbraco.NotificationHooks;
+﻿using FayoumGovPortal.Core.Umbraco.Localization;
+using FayoumGovPortal.Core.Umbraco.NotificationHooks;
 using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Notifications;
 
-namespace MOHPortal.Core.Umbraco.ProtectedContent
+namespace  FayoumGovPortal.Core.Umbraco.ProtectedContent
 {
     internal class ProtectedContentSavingNotificationHandler : INotificationHandler<ContentSavingNotification>
     {

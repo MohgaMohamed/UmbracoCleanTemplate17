@@ -1,6 +1,6 @@
 ﻿using Umbraco.Cms.Core.Strings;
 
-namespace MOHPortal.Core.Umbraco.GoogleRecaptcha.Contracts
+namespace FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Contracts
 {
     public interface IGoogleRecaptchaHelper
     {

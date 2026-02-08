@@ -1,10 +1,10 @@
 ﻿using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core;
 using System.Text.Json;
-using MOHPortal.Core.Umbraco.DocumentValidator.Base;
+using FayoumGovPortal.Core.Umbraco.DocumentValidator.Base;
 using Umbraco.Cms.Core.Media.EmbedProviders;
 
-namespace MOHPortal.Core.Umbraco.DocumentValidator.Extensions
+namespace FayoumGovPortal.Core.Umbraco.DocumentValidator.Extensions
 {
     /// <summary>
     /// [MS] Helper Functions for dealing with Umbraco's Intermediate Value Types existing in an IContent model such as

@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MOHPortal.Core.Domain\MOHPortal.Core.Domain.csproj" />
-    <ProjectReference Include="..\MOHPortal.Core.Umbraco\MOHPortal.Core.Umbraco.csproj" />
+    <Folder Include="Dto\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dto\" />
+    <ProjectReference Include="..\MOHPortal.Core.Domain\FayoumGovPortal.Core.Domain.csproj" />
+    <ProjectReference Include="..\MOHPortal.Core.Umbraco\FayoumGovPortal.Core.Umbraco.csproj" />
   </ItemGroup>
 
 </Project>

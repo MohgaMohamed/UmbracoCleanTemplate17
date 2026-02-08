@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.SEO.Models
+﻿namespace  FayoumGovPortal.Core.Umbraco.SEO.Models
 {
     public class SeoModel
     {

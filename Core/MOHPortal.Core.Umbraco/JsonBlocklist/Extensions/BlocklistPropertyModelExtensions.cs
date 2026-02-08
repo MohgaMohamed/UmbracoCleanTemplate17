@@ -1,10 +1,10 @@
-﻿using MOHPortal.Core.Umbraco.DocumentValidator.Extensions;
-using MOHPortal.Core.Umbraco.JsonBlocklist.Base;
-using MOHPortal.Core.Umbraco.JsonBlocklist.Models;
+﻿using FayoumGovPortal.Core.Umbraco.DocumentValidator.Extensions;
+using FayoumGovPortal.Core.Umbraco.JsonBlocklist.Base;
+using FayoumGovPortal.Core.Umbraco.JsonBlocklist.Models;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Models;
 
-namespace MOHPortal.Core.Umbraco.JsonBlocklist.Extensions
+namespace FayoumGovPortal.Core.Umbraco.JsonBlocklist.Extensions
 {
     public static class BlocklistPropertyModelExtensions
     {

@@ -2,14 +2,14 @@
 using Examine.Search;
 using Lucene.Net.Search;
 using Microsoft.Extensions.Logging;
-using MOHPortal.Core.Umbraco.ContentSearch.Model;
+using FayoumGovPortal.Core.Umbraco.ContentSearch.Model;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Models.PublishedContent;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Infrastructure.Examine;
 
-namespace MOHPortal.Core.Umbraco.ContentSearch
+namespace FayoumGovPortal.Core.Umbraco.ContentSearch
 {
     /// <summary>
     /// [MS] Wrapper for Umbraco's Examine Search Engine

@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.GoogleRecaptcha.Models
+﻿namespace FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Models
 {
     public class GoogleRecaptchaOptions
     {

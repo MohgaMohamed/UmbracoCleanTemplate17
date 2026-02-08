@@ -1,10 +1,10 @@
 ﻿using DocumentFormat.OpenXml.Drawing.Charts;
 using Microsoft.Extensions.DependencyInjection;
-using MOHPortal.Core.Umbraco.DocumentValidator.Contracts;
-using MOHPortal.Core.Umbraco.DocumentValidator.Extensions;
-using MOHPortal.Core.Umbraco.DocumentValidator.Models;
-using MOHPortal.Core.Umbraco.Localization;
-using MOHPortal.Core.Umbraco.NotificationHooks;
+using FayoumGovPortal.Core.Umbraco.DocumentValidator.Contracts;
+using FayoumGovPortal.Core.Umbraco.DocumentValidator.Extensions;
+using FayoumGovPortal.Core.Umbraco.DocumentValidator.Models;
+using FayoumGovPortal.Core.Umbraco.Localization;
+using FayoumGovPortal.Core.Umbraco.NotificationHooks;
 using NUglify.Helpers;
 using System.ComponentModel.DataAnnotations;
 using Umbraco.Cms.Core;
@@ -12,7 +12,7 @@ using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Notifications;
 
-namespace MOHPortal.Core.Umbraco.DocumentValidator
+namespace FayoumGovPortal.Core.Umbraco.DocumentValidator
 {
     internal class DocumentValidationNotificationHandler : INotificationAsyncHandler<ContentSavingNotification>
     {

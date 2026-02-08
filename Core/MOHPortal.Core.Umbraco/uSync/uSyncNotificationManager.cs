@@ -1,10 +1,10 @@
-﻿using MOHPortal.Core.Umbraco.NotificationHooks;
+﻿using FayoumGovPortal.Core.Umbraco.NotificationHooks;
 using Umbraco.Cms.Core.Events;
 using uSync.BackOffice;
 using uSync.Core;
 using uSync.BackOffice.Services;
 
-namespace MOHPortal.Core.Umbraco.uSync
+namespace  FayoumGovPortal.Core.Umbraco.uSync
 {
     internal class uSyncNotificationManager : 
         INotificationAsyncHandler<uSyncImportStartingNotification>,

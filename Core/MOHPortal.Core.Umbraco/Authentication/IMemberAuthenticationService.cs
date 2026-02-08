@@ -2,7 +2,7 @@
 //using Umbraco.Cms.Core.Models.PublishedContent;
 //using Umbraco.Cms.Core.Security;
 
-//namespace MOHPortal.Core.Umbraco.Authentication
+//namespace  FayoumGovPortal.Core.Umbraco.Authentication
 //{
 //    public interface IMemberAuthenticationService
 //    {

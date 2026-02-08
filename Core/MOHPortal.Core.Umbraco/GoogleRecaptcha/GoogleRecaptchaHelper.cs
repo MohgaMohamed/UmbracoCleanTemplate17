@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using MOHPortal.Core.Umbraco.GoogleRecaptcha.Contracts;
-using MOHPortal.Core.Umbraco.GoogleRecaptcha.Models;
+using FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Contracts;
+using FayoumGovPortal.Core.Umbraco.GoogleRecaptcha.Models;
 using Newtonsoft.Json;
 using System.Net.Http.Json;
 using System.Text.Json;
 using Umbraco.Cms.Core.Strings;
 
-namespace MOHPortal.Core.Umbraco.GoogleRecaptcha
+namespace FayoumGovPortal.Core.Umbraco.GoogleRecaptcha
 {
     internal class GoogleRecaptchaHelper : IGoogleRecaptchaHelper
     {

@@ -1,5 +1,5 @@
-﻿using MOHPortal.Core.Umbraco.Localization;
-using MOHPortal.Core.Umbraco.Model.Gen;
+﻿using FayoumGovPortal.Core.Umbraco.Localization;
+using FayoumGovPortal.Core.Umbraco.Model.Gen;
 using System.Diagnostics.CodeAnalysis;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Events;
@@ -7,7 +7,7 @@ using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Models.PublishedContent;
 using Umbraco.Cms.Core.Services;
 
-namespace MOHPortal.Core.Umbraco.ProtectedContent
+namespace  FayoumGovPortal.Core.Umbraco.ProtectedContent
 {
     internal class ProtectedContentHelper
     {

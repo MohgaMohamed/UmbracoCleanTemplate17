@@ -1,4 +1,4 @@
-using MOHPortal.Core.Application.Resolver;
+using FayoumGovPortal.Core.Application.Resolver;
 using Smidge;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);

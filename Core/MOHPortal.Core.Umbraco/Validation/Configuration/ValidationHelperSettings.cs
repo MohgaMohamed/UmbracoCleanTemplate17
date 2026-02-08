@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.Validation.Configuration
+﻿namespace  FayoumGovPortal.Core.Umbraco.Validation.Configuration
 {
     public class ValidationHelperSettings
     {

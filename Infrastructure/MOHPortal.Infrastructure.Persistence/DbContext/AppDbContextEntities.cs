@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Infrastructure.Persistence.DbContext
+﻿namespace  FayoumGovPortal.Infrastructure.Persistence.DbContext
 {
     public partial class AppDbContext
     {

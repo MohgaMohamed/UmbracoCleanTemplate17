@@ -1,6 +1,6 @@
-﻿using MOHPortal.Core.Umbraco.Model.Gen;
+﻿using FayoumGovPortal.Core.Umbraco.Model.Gen;
 
-namespace MOHPortal.Core.Umbraco.ContentSearch
+namespace FayoumGovPortal.Core.Umbraco.ContentSearch
 {
     public class SearchConstants
     {

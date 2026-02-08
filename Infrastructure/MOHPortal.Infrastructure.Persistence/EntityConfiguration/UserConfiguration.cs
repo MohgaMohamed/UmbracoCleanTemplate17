@@ -1,5 +1,5 @@
 ﻿
-namespace MOHPortal.Infrastructure.Persistence.EntityConfiguration
+namespace  FayoumGovPortal.Infrastructure.Persistence.EntityConfiguration
 {
     internal class UserConfiguration
     {

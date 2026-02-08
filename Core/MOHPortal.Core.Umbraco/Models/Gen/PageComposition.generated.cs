@@ -16,7 +16,7 @@ using Umbraco.Cms.Infrastructure.ModelsBuilder;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
 
-namespace MOHPortal.Core.Umbraco.Model.Gen
+namespace  FayoumGovPortal.Core.Umbraco.Model.Gen
 {
 	// Mixin Content Type with alias "pageComposition"
 	/// <summary>#Compositions_PageCompositionName</summary>

@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Logging;
-using MOHPortal.Core.Umbraco.Model.Gen;
+using FayoumGovPortal.Core.Umbraco.Model.Gen;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Models.PublishedContent;
 
-namespace MOHPortal.Core.Umbraco.SiteSettings
+namespace  FayoumGovPortal.Core.Umbraco.SiteSettings
 {
     internal class SiteSettingsService : ISiteSettingsService
     {

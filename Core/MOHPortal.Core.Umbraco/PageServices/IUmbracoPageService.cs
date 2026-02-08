@@ -1,7 +1,7 @@
 ﻿using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Models.PublishedContent;
 
-namespace MOHPortal.Core.Umbraco.PageServices
+namespace  FayoumGovPortal.Core.Umbraco.PageServices
 {
     public interface IUmbracoPageService
     {

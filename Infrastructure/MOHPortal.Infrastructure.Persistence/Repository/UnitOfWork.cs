@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MOHPortal.Core.Contracts.IRepository;
-using MOHPortal.Infrastructure.Persistence.DbContext;
+using FayoumGovPortal.Core.Contracts.IRepository;
+using FayoumGovPortal.Infrastructure.Persistence.DbContext;
 
-namespace MOHPortal.Infrastructure.Persistence.Repository
+namespace  FayoumGovPortal.Infrastructure.Persistence.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

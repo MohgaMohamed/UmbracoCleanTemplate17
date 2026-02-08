@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.StaticAssetBundling.Settings
+﻿namespace  FayoumGovPortal.Core.Umbraco.StaticAssetBundling.Settings
 {
     internal sealed class AssetBundlingSettings
     {

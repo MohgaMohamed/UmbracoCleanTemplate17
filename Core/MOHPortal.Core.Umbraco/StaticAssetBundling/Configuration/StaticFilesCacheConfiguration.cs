@@ -6,11 +6,11 @@ using Microsoft.Net.Http.Headers;
 using Umbraco.Cms.Core.Configuration.Models;
 using Umbraco.Extensions;
 using IHostingEnvironment = Umbraco.Cms.Core.Hosting.IHostingEnvironment;
-using MOHPortal.Core.Umbraco.StaticAssetBundling.Settings;
+using FayoumGovPortal.Core.Umbraco.StaticAssetBundling.Settings;
 using Microsoft.Extensions.Configuration;
 
 
-namespace MOHPortal.Core.Umbraco.StaticAssetBundling.Configuration
+namespace  FayoumGovPortal.Core.Umbraco.StaticAssetBundling.Configuration
 {
     public class StaticFilesCacheConfiguration : IConfigureOptions<StaticFileOptions>
     {

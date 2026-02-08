@@ -1,8 +1,8 @@
 ﻿using System.Text.RegularExpressions;
-using MOHPortal.Core.Umbraco.Validation.Configuration;
-using MOHPortal.Core.Umbraco.Validation.Contracts;
+using FayoumGovPortal.Core.Umbraco.Validation.Configuration;
+using FayoumGovPortal.Core.Umbraco.Validation.Contracts;
 
-namespace MOHPortal.Core.Umbraco.Validation
+namespace  FayoumGovPortal.Core.Umbraco.Validation
 {
     class ValidationHelper : IValidationHelper
     {

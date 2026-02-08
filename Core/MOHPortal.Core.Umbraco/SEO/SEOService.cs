@@ -1,13 +1,13 @@
-﻿using MOHPortal.Core.Umbraco.Model.Gen;
-using MOHPortal.Core.Umbraco.PageServices;
-using MOHPortal.Core.Umbraco.SEO.Contracts;
-using MOHPortal.Core.Umbraco.SEO.Models;
+﻿using FayoumGovPortal.Core.Umbraco.Model.Gen;
+using FayoumGovPortal.Core.Umbraco.PageServices;
+using FayoumGovPortal.Core.Umbraco.SEO.Contracts;
+using FayoumGovPortal.Core.Umbraco.SEO.Models;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Models.PublishedContent;
 using Umbraco.Cms.Core.Strings;
 
-namespace MOHPortal.Core.Umbraco.SEO
+namespace  FayoumGovPortal.Core.Umbraco.SEO
 {
     public class SEOService : ISEOService
     {

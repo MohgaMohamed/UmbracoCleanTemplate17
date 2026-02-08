@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Contracts.IRepository
+﻿namespace FayoumGovPortal.Core.Contracts.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {

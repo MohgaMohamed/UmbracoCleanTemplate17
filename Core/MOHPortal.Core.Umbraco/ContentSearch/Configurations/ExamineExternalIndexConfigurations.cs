@@ -3,7 +3,7 @@ using Examine;
 using Microsoft.Extensions.Options;
 using Umb = Umbraco.Cms.Core;
 
-namespace MOHPortal.Core.Umbraco.ContentSearch.Configurations
+namespace FayoumGovPortal.Core.Umbraco.ContentSearch.Configurations
 {
     public sealed class ExamineExternalIndexConfigurations : IConfigureNamedOptions<LuceneDirectoryIndexOptions>
     {

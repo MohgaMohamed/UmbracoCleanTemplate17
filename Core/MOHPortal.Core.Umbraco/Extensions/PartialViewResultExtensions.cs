@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Mvc.Razor;
 
-namespace MOHPortal.Core.Umbraco.Extensions
+namespace FayoumGovPortal.Core.Umbraco.Extensions
 {
     public static class PartialViewResultExtensions
     {

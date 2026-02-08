@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MOHPortal.Core.Contracts.IRepository;
-using MOHPortal.Infrastructure.Persistence.DbContext;
-using MOHPortal.Infrastructure.Persistence.Repository;
+using FayoumGovPortal.Core.Contracts.IRepository;
+using FayoumGovPortal.Infrastructure.Persistence.DbContext;
+using FayoumGovPortal.Infrastructure.Persistence.Repository;
 
-namespace MOHPortal.Infrastructure.Persistence.Resolver
+namespace  FayoumGovPortal.Infrastructure.Persistence.Resolver
 {
     public static class UnitOfWorkResolver
     {

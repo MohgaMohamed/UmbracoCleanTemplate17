@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 
-namespace MOHPortal.Infrastructure.Persistence.DbContext
+namespace  FayoumGovPortal.Infrastructure.Persistence.DbContext
 {
     public partial class AppDbContext : Microsoft.EntityFrameworkCore.DbContext
     {

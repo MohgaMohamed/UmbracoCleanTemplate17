@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
-using MOHPortal.Core.Domain.Enums;
+using FayoumGovPortal.Core.Domain.Enums;
 
-namespace MOHPortal.Core.Contracts.IRepository.Base
+namespace FayoumGovPortal.Core.Contracts.IRepository.Base
 {
     public interface IBaseRepository<T>
     {

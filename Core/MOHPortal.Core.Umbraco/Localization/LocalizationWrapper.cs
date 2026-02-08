@@ -1,7 +1,7 @@
-﻿using MOHPortal.Core.Umbraco.Validation.Contracts;
+﻿using FayoumGovPortal.Core.Umbraco.Validation.Contracts;
 using Umbraco.Cms.Core.Services;
 
-namespace MOHPortal.Core.Umbraco.Localization
+namespace FayoumGovPortal.Core.Umbraco.Localization
 {
     public class LocalizationWrapper
     {

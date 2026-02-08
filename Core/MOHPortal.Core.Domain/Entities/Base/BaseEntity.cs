@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using MOHPortal.Core.Domain.Enums;
+using FayoumGovPortal.Core.Domain.Enums;
 
-namespace MOHPortal.Core.Domain.Entities.Base
+namespace FayoumGovPortal.Core.Domain.Entities.Base
 {
     public class BaseEntity
     {

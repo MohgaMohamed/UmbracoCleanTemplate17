@@ -1,4 +1,4 @@
-﻿namespace MOHPortal.Core.Umbraco.MediaFileValidation.Models
+﻿namespace FayoumGovPortal.Core.Umbraco.MediaFileValidation.Models
 {
     public class MediaNotificationHandlerSettings
     {

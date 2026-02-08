@@ -1,13 +1,13 @@
 ﻿using System.Text.Json;
-using MOHPortal.Core.Umbraco.Localization;
-using MOHPortal.Core.Umbraco.MediaFiles.Models;
+using FayoumGovPortal.Core.Umbraco.Localization;
+using FayoumGovPortal.Core.Umbraco.MediaFiles.Models;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.IO;
 using Umbraco.Cms.Core.Notifications;
 using Umbraco.Cms.Core.Services;
 
-namespace MOHPortal.Core.Umbraco.MediaFiles
+namespace FayoumGovPortal.Core.Umbraco.MediaFiles
 {
     public class MediaFileValidationNotificationHandler : INotificationHandler<MediaSavingNotification>
     {

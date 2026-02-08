@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace MOHPortal.Core.Umbraco.JsonBlocklist.Base
+namespace FayoumGovPortal.Core.Umbraco.JsonBlocklist.Base
 {
     public abstract class JsonBlockListContentData
     {

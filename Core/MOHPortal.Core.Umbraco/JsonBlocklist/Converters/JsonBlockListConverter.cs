@@ -1,9 +1,9 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using MOHPortal.Core.Umbraco.JsonBlocklist.Base;
-using MOHPortal.Core.Umbraco.JsonBlocklist.Models;
+using FayoumGovPortal.Core.Umbraco.JsonBlocklist.Base;
+using FayoumGovPortal.Core.Umbraco.JsonBlocklist.Models;
 
-namespace MOHPortal.Core.Umbraco.JsonBlocklist.Converters
+namespace FayoumGovPortal.Core.Umbraco.JsonBlocklist.Converters
 {
     public class JsonBlockListConverter<TContentData> : JsonConverter<JsonBlockList<TContentData>> 
         where TContentData : JsonBlockListContentData

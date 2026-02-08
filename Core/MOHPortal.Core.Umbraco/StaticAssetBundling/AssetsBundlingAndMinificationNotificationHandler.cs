@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
-using MOHPortal.Core.Umbraco.StaticAssetBundling.Settings;
+using FayoumGovPortal.Core.Umbraco.StaticAssetBundling.Settings;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.Notifications;
@@ -10,7 +10,7 @@ using Smidge; // Replacement for Umbraco.Cms.Core.WebAssets
 using System.IO;
 using System.Linq;
 
-namespace MOHPortal.Core.Umbraco.StaticAssetBundling
+namespace  FayoumGovPortal.Core.Umbraco.StaticAssetBundling
 {
     internal class AssetsBundlingAndMinificationNotificationHandler
         : INotificationHandler<UmbracoApplicationStartingNotification>
